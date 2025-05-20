@@ -3,12 +3,40 @@
 nav{
   display: flex;
   align-items: center;
-  margin: 16px;
+  padding: 16px;
   gap: 8px;
   justify-content: space-between;
+  box-shadow: 1px 4px 5px rgb(216, 216, 216) ;
 }
 
-.logo-img{
+.logoImg{
   height: 50px;
   width: auto;
+}
+
+
+.dropdownMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 1px 4px 5px rgb(216, 216, 216) ;
+}
+
+.visible {
+  animation: expand 200ms ease-in-out;
+  transform-origin: top;
+}
+
+@keyframes expand {
+  0% {
+    transform: scaleY(0);
+  }
+
+  70% {
+    transform: scaleY(1.1);
+  }
+  
+  100% {
+    transform: scaleY(1);
+  }
 }

@@ -3,7 +3,7 @@
   box-sizing: border-box;
   --color-rosso: #C02121;
   --color-giallo: #F4C542;
-  color: #213547;
+  --color-nero: #213547;
   background-color: #ffffff;
 
   font-synthesis: none;
