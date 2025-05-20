@@ -1,15 +1,28 @@
-import logo from '../assets/logo.png';
+import { useState } from "react";
+import logo from "../assets/logo.png";
+import { IoMdMenu } from "react-icons/io";
+import { IoMdClose } from "react-icons/io";
+export default function NavBar() {
+  const [menuClicked, setMenuClicked] = useState(false);
 
-export default function NavBar(){
+  function clickHandler() {
+    menuClicked ? setMenuClicked(false) : setMenuClicked(true);
+  }
 
-    return(<>
-    
-        <nav>
-            <div className="logo-container">
-                <img src={logo} alt="" />
-            </div>
-            <h1>Chicago Pizza</h1>
-            <button>Hi</button>
-        </nav>
-    </>)
+  const burgerMenu = menuClicked ? (
+    <IoMdClose className="BurgerMenu" size="30px" onClick={clickHandler} />
+  ) : (
+    <IoMdMenu className="BurgerMenu" size="30px" onClick={clickHandler} />
+  );
+  return (
+    <>
+      <nav>
+        <div>
+          <img className="logo-img" src={logo} alt="" />
+        </div>
+        <h1>Chicago Pizza</h1>
+        {burgerMenu}
+      </nav>
+    </>
+  );
 }
