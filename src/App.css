@@ -75,6 +75,10 @@ nav{
   border: none;
   color: #fff;
   font-weight: 600;
+  width: 90%;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 16px;
 }
 
 .dealContainer{
@@ -88,24 +92,8 @@ nav{
   align-items: center;
   justify-content: center;
   padding-bottom: 16px;
-}
-
-.dealContainer > h2::before{
-  display: inline-block;
-    content: "";
-    border-top: 2px solid #6a6c6e;
-    width: 2rem;
-    margin: 0 1rem;
-
-}
-
-.dealContainer > h2::after{
-  display: inline-block;
-    content: "";
-    border-top: 2px solid #6a6c6e;
-    width: 2rem;
-    margin: 0 1rem;
-   
+  font-size: 24px;
+  font-weight: 600;
 }
 
 
