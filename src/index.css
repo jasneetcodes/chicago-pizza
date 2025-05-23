@@ -4,7 +4,8 @@
   --color-rosso: #C02121;
   --color-giallo: #F4C542;
   --color-nero: #213547;
-  background-color: #ffffff;
+  --color-bg: rgb(245, 245, 245);
+  background-color: var( --color-bg);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

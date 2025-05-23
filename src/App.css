@@ -10,6 +10,7 @@ nav{
   padding: 16px;
   gap: 8px;
   justify-content: space-between;
+  background-color: #fff;
 }
 
 .logoImg{
@@ -59,6 +60,7 @@ nav{
   align-items: center;
   flex-direction: column;
   gap: 24px;
+  background-color: var(--color-bg);
 }
 
 .mainDealImg{
