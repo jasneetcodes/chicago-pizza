@@ -5,7 +5,7 @@ import { IoMdClose } from "react-icons/io";
 export default function NavBar() {
   const [menuClicked, setMenuClicked] = useState(false);
   const navStyle = {
-    boxShadow: menuClicked ? 'none' : '1px 4px 5px rgb(216, 216, 216)'
+    boxShadow: menuClicked ? 'none' : '0 4px 2px -2px rgba(0,0,0,.2)'
   }
   function clickHandler() {
     menuClicked ? setMenuClicked(false) : setMenuClicked(true);
