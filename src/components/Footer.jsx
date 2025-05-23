@@ -22,8 +22,12 @@ export default function Footer(){
 
             <div>
                 <h3>Follow Us</h3>
-                <p>Instagram</p>
-                <p>Facebook</p>
+                <div className="footerSocials">
+                <i className="fa-brands fa-instagram fa-2xl"></i>
+                <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                
+                </div>
+
             </div>
         </div>
         <p>Copyright © 2025 Jasneet Singh </p>

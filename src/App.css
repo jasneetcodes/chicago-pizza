@@ -157,4 +157,15 @@ footer{
 
 .footerRow > * p{
   font-size: 15px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.footerSocials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: row;
+  padding: 16px;
 }
