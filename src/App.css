@@ -1,12 +1,15 @@
 /* NavBar */
 
+.navContainer{
+  position: relative;
+}
+
 nav{
   display: flex;
   align-items: center;
   padding: 16px;
   gap: 8px;
   justify-content: space-between;
-  box-shadow: 1px 4px 5px rgb(216, 216, 216) ;
 }
 
 .logoImg{
@@ -16,6 +19,10 @@ nav{
 
 
 .dropdownMenu {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: #fff;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -39,4 +46,61 @@ nav{
   100% {
     transform: scaleY(1);
   }
+}
+
+
+
+
+/* HOME */
+
+.homeContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+ margin-top: 2px;
+}
+
+.mainDealImg{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.callBtn{
+  padding: 16px 24px;
+  border-radius: 20px;
+  background-color: var(--color-rosso);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.dealContainer{
+  margin-top: 32px;
+}
+
+.dealContainer > h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dealContainer > h2::before{
+  display: inline-block;
+    content: "";
+    border-top: 2px solid #6a6c6e;
+    width: 2rem;
+    margin: 0 1rem;
+
+}
+
+.dealContainer > h2::after{
+  display: inline-block;
+    content: "";
+    border-top: 2px solid #6a6c6e;
+    width: 2rem;
+    margin: 0 1rem;
+   
 }

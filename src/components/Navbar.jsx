@@ -17,7 +17,7 @@ export default function NavBar() {
     <IoMdMenu className="burgerMenu" size="30px" onClick={clickHandler} />
   );
   return (
-    <>
+    <div className="navContainer">
       <nav style={navStyle}>
         <div>
           <img className="logoImg" src={logo} alt="" />
@@ -25,11 +25,11 @@ export default function NavBar() {
         <h1>Chicago Pizza</h1>
         {burgerMenu}
       </nav>
-      {menuClicked ? (<ul class="dropdownMenu visible">
+      {menuClicked ? (<ul className="dropdownMenu visible">
             <li>Menu</li>
             <li>Deals</li>
             <li>Contact</li>
         </ul>): (<></>)}
-    </>
+    </div>
   );
 }
