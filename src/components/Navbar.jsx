@@ -26,11 +26,9 @@ export default function NavBar() {
         {burgerMenu}
       </nav>
       {menuClicked ? (<ul class="dropdownMenu visible">
-            <li>ITEM 1</li>
-            <li>ITEM 2</li>
-            <li>ITEM 3</li>
-            <li>ITEM 4</li>
-            <li>ITEM 5</li>
+            <li>Menu</li>
+            <li>Deals</li>
+            <li>Contact</li>
         </ul>): (<></>)}
     </>
   );
