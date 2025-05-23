@@ -1,11 +1,10 @@
 import banner from "../assets/main-deal.jpg"
-import { IoMdCall } from "react-icons/io";
 export default function Home(){
 
     return(
         <div className="homeContainer">
             <img className= "mainDealImg" src={banner} alt="" />
-            <button className="callBtn">Order Now<IoMdCall /></button>
+            <button className="callBtn">Order Now   <i class="fa-solid fa-phone "></i></button>
 
             <div className="dealContainer">
                 <h2>Our Most Popular Deals</h2>
