@@ -4,7 +4,7 @@ export default function Home(){
     return(
         <div className="homeContainer">
             <img className= "mainDealImg" src={banner} alt="" />
-            <button className="callBtn">Order Now   <i class="fa-solid fa-phone "></i></button>
+            <button className="callBtn click">Order Now   <i class="fa-solid fa-phone "></i></button>
 
             <div className="dealContainer">
                 <h2>Our Most Popular Deals</h2>
@@ -16,7 +16,7 @@ export default function Home(){
                         <img className="dealImg" src={banner} alt="" />
                     </div>
                 </div>
-                <button className="dealBtn">View all deals</button>
+                <button className="dealBtn click">View all deals</button>
             </div>
         </div>
     )
