@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <CallSticky/>
+      {/* <CallSticky/> */}
       <Contact/>
       <Footer/>
     </>

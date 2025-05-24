@@ -213,3 +213,38 @@ footer{
   flex-direction: row;
   padding: 16px;
 }
+
+
+
+/* CONTACT */
+
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  align-items: center;
+}
+
+.contactContainer >  h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.contactContainer > * h2{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+.contactContainer > * {
+  text-align: center;
+}
+
+
+.contactInfo{
+  padding-top: 40px;
+}
+
+.contactInfo > p {
+  line-height: 1.5em;
+}
