@@ -28,10 +28,10 @@ export default function NavBar() {
         {burgerMenu}
       </nav>
       {menuClicked ? (<ul className="dropdownMenu visible">
-          <li><Link className="linkHoverEffect"  to="/" onClick={clickHandler}>Home</Link></li>
-          <li><Link className="linkHoverEffect" to="menu" onClick={clickHandler}>Menu</Link></li>
-          <li><Link className="linkHoverEffect" to="deals" onClick={clickHandler}>Deals</Link></li>
-          <li><Link className="linkHoverEffect" to="contact" onClick={clickHandler}>Contact</Link></li>
+          <li><Link className="linkHoverEffect LinkHoverEffectBlack"  to="/" onClick={clickHandler}>Home</Link></li>
+          <li><Link className="linkHoverEffect LinkHoverEffectBlack" to="menu" onClick={clickHandler}>Menu</Link></li>
+          <li><Link className="linkHoverEffect LinkHoverEffectBlack" to="deals" onClick={clickHandler}>Deals</Link></li>
+          <li><Link className="linkHoverEffect LinkHoverEffectBlack" to="contact" onClick={clickHandler}>Contact</Link></li>
         </ul>): (<></>)}
     </div>
   );

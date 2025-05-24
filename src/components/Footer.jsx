@@ -13,8 +13,8 @@ export default function Footer(){
             </div>
             <div>
                 <h3>Order</h3>
-                <p>Menu</p>
-                <p>Deals</p>
+                <Link className="linkHoverEffect LinkHoverEffectWhite" to="menu"><p>Menu</p></Link>
+                <Link className="linkHoverEffect LinkHoverEffectWhite" to="deals"><p>Deals</p></Link>
             </div>
             <div>
                 <h3>Address</h3>
