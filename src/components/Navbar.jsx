@@ -2,6 +2,8 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import { IoMdMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
+
 export default function NavBar() {
   const [menuClicked, setMenuClicked] = useState(false);
   const navStyle = {
@@ -20,7 +22,7 @@ export default function NavBar() {
     <div className="navContainer">
       <nav style={navStyle}>
         <div>
-          <img className="logoImg" src={logo} alt="" />
+          <Link to="/"><img className="logoImg" src={logo} alt="" /></Link>
         </div>
         <h1>Chicago Pizza</h1>
         {burgerMenu}
@@ -28,7 +30,7 @@ export default function NavBar() {
       {menuClicked ? (<ul className="dropdownMenu visible">
             <li>Menu</li>
             <li>Deals</li>
-            <li>Contact</li>
+            <li><Link to="contact">Contact</Link></li>
         </ul>): (<></>)}
     </div>
   );

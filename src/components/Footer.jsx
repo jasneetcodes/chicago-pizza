@@ -1,9 +1,10 @@
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 export default function Footer(){
 
     return(
        <footer>
-        <img className="logoImg" src={logo} alt="" />
+        <Link to="/"><img className="logoImg" src={logo} alt="" /></Link>
         <div className="footerRow">
             <div>
                 <h3>Opening Hours</h3>
