@@ -1,21 +1,19 @@
-
-#root{
+#root {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-
 /* CallSticky */
 
-.callButton{
-  width: 70PX;
-  height: 70PX;
-  font-size: 32PX;
+.callButton {
+  width: 70px;
+  height: 70px;
+  font-size: 32px;
   border-radius: 50%;
   border: none;
   background-color: var(--color-rosso);
@@ -25,30 +23,26 @@ a{
   right: 40px;
   z-index: 100;
   box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
-
 }
-
-
 
 /* Click */
 
-.click{
+.click {
   cursor: pointer;
   transition: all 300ms ease;
 }
 
-
-.click:active{
-  transform: scale(.9);
+.click:active {
+  transform: scale(0.9);
 }
 
 /* NavBar */
 
-.navContainer{
+.navContainer {
   position: relative;
 }
 
-nav{
+nav {
   display: flex;
   align-items: center;
   padding: 16px;
@@ -57,17 +51,16 @@ nav{
   background-color: #fff;
 }
 
-nav > a{
+nav > a {
   font-weight: 600;
   font-size: 28px;
   color: #000;
 }
 
-.logoImg{
+.logoImg {
   height: 50px;
   width: auto;
 }
-
 
 .dropdownMenu {
   position: absolute;
@@ -77,7 +70,7 @@ nav > a{
   list-style: none;
   padding: 0;
   margin: 0;
-  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2) ;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,37 +80,36 @@ nav > a{
   font-size: 18px;
 }
 
-.dropdownMenu > * a{
+.dropdownMenu > * a {
   text-decoration: none;
   color: #000;
   transition: all 200ms ease;
-  
 }
 
-.linkHoverEffect{
+.linkHoverEffect {
   position: relative;
 }
 
-.linkHoverEffect:after{
+.linkHoverEffect:after {
   content: "";
   position: absolute;
-  bottom :-3px;
+  bottom: -3px;
   height: 3px;
   right: 0;
   width: 0;
-  
+
   transition: all 300ms ease;
 }
 
-.LinkHoverEffectWhite:after{
+.LinkHoverEffectWhite:after {
   background-color: white;
 }
 
-.LinkHoverEffectBlack:after{
+.LinkHoverEffectBlack:after {
   background-color: black;
 }
 
-.linkHoverEffect:hover:after{
+.linkHoverEffect:hover:after {
   left: 0;
   width: 100%;
 }
@@ -135,18 +127,15 @@ nav > a{
   70% {
     transform: scaleY(1.1);
   }
-  
+
   100% {
     transform: scaleY(1);
   }
 }
 
-
-
-
 /* HOME */
 
-.homeContainer{
+.homeContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,13 +144,13 @@ nav > a{
   background-color: var(--color-bg);
 }
 
-.mainDealImg{
+.mainDealImg {
   width: 100%;
   height: auto;
   object-fit: contain;
 }
 
-.callBtn{
+.callBtn {
   padding: 16px 24px;
   border-radius: 20px;
   background-color: var(--color-rosso);
@@ -174,14 +163,14 @@ nav > a{
   font-size: 16px;
 }
 
-.dealContainer{
+.dealContainer {
   padding-top: 24px;
   margin-left: 16px;
   margin-right: 16px;
   padding-bottom: 48px;
 }
 
-.dealContainer > h2{
+.dealContainer > h2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -190,20 +179,19 @@ nav > a{
   font-weight: 600;
 }
 
-
-.deals{
+.deals {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.dealImg{
+.dealImg {
   width: 100%;
   height: auto;
   object-fit: contain;
 }
 
-.dealBtn{
+.dealBtn {
   padding: 24px 32px;
   border-radius: 20px;
   border: none;
@@ -216,13 +204,9 @@ nav > a{
   color: #fff;
 }
 
-
-
-
 /* FOOTER */
 
-
-footer{
+footer {
   background-color: #242424;
   color: #fff;
   display: flex;
@@ -234,7 +218,7 @@ footer{
   min-height: 50px;
 }
 
-.footerRow{
+.footerRow {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,13 +226,13 @@ footer{
   gap: 24px;
 }
 
-.footerRow > * h3{
+.footerRow > * h3 {
   font-weight: 600;
   padding-bottom: 8px;
   text-align: center;
 }
 
-.footerRow > * p{
+.footerRow > * p {
   font-size: 15px;
   text-align: center;
   line-height: 1.5em;
@@ -256,7 +240,7 @@ footer{
   padding-top: 2px;
 }
 
-.footerSocials{
+.footerSocials {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,23 +249,21 @@ footer{
   padding: 16px;
 }
 
-
-
 /* CONTACT */
 
-.contactContainer{
+.contactContainer {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
   align-items: center;
 }
 
-.contactContainer >  h1{
+.contactContainer > h1 {
   font-size: 24px;
   font-weight: 600;
 }
 
-.contactContainer > * h2{
+.contactContainer > * h2 {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.5em;
@@ -291,8 +273,7 @@ footer{
   text-align: center;
 }
 
-
-.contactInfo{
+.contactInfo {
   padding-top: 40px;
 }
 
