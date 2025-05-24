@@ -14,9 +14,9 @@ export default function NavBar() {
   }
 
   const burgerMenu = menuClicked ? (
-    <IoMdClose className="burgerMenu" size="30px" onClick={clickHandler} />
+    <IoMdClose className="burgerMenu" style={{cursor: "pointer"}} size="30px" onClick={clickHandler} />
   ) : (
-    <IoMdMenu className="burgerMenu" size="30px" onClick={clickHandler} />
+    <IoMdMenu className="burgerMenu" style={{cursor: "pointer"}} size="30px" onClick={clickHandler} />
   );
   return (
     <div className="navContainer">
@@ -24,13 +24,14 @@ export default function NavBar() {
         <div>
           <Link to="/"><img className="logoImg" src={logo} alt="" /></Link>
         </div>
-        <h1>Chicago Pizza</h1>
+        <Link to="/"><h1>Chicago Pizza</h1></Link>
         {burgerMenu}
       </nav>
       {menuClicked ? (<ul className="dropdownMenu visible">
-            <li>Menu</li>
-            <li>Deals</li>
-            <li><Link to="contact">Contact</Link></li>
+          <li><Link className="linkHoverEffect"  to="/" onClick={clickHandler}>Home</Link></li>
+          <li><Link className="linkHoverEffect" to="menu" onClick={clickHandler}>Menu</Link></li>
+          <li><Link className="linkHoverEffect" to="deals" onClick={clickHandler}>Deals</Link></li>
+          <li><Link className="linkHoverEffect" to="contact" onClick={clickHandler}>Contact</Link></li>
         </ul>): (<></>)}
     </div>
   );
