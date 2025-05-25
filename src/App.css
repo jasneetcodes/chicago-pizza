@@ -280,3 +280,32 @@ footer {
 .contactInfo > p {
   line-height: 1.5em;
 }
+
+/* Desktop Size */
+
+@media (min-width: 1000px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 5fr 20fr;
+  }
+
+  .dropdownMenu {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: none;
+  }
+
+  .navLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .navLinks > * a {
+    text-decoration: none;
+    color: #000;
+  }
+}

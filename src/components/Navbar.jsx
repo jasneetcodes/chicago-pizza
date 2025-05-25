@@ -26,7 +26,14 @@ export default function NavBar() {
         </div>
         <Link to="/"><h1>Chicago Pizza</h1></Link>
         {burgerMenu}
+        <ul className="navLinks">
+          <li><Link className="linkHoverEffect LinkHoverEffectBlack"  to="/" onClick={clickHandler}>Home</Link></li>
+          <li><Link className="linkHoverEffect LinkHoverEffectBlack" to="menu" onClick={clickHandler}>Menu</Link></li>
+          <li><Link className="linkHoverEffect LinkHoverEffectBlack" to="deals" onClick={clickHandler}>Deals</Link></li>
+          <li><Link className="linkHoverEffect LinkHoverEffectBlack" to="contact" onClick={clickHandler}>Contact</Link></li>
+      </ul>
       </nav>
+
       {menuClicked ? (<ul className="dropdownMenu visible">
           <li><Link className="linkHoverEffect LinkHoverEffectBlack"  to="/" onClick={clickHandler}>Home</Link></li>
           <li><Link className="linkHoverEffect LinkHoverEffectBlack" to="menu" onClick={clickHandler}>Menu</Link></li>
