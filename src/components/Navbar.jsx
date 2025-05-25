@@ -19,8 +19,8 @@ export default function NavBar() {
     <IoMdMenu className="burgerMenu" style={{cursor: "pointer"}} size="30px" onClick={clickHandler} />
   );
   return (
-    <div className="navContainer">
-      <nav style={navStyle}>
+    <div className="navContainer"style={navStyle}>
+      <nav >
         <div>
           <Link to="/"><img className="logoImg" src={logo} alt="" /></Link>
         </div>

@@ -281,12 +281,21 @@ footer {
   line-height: 1.5em;
 }
 
+
+
+
+
+.navLinks{
+  display: none;
+}
 /* Desktop Size */
 
 @media (min-width: 1000px) {
   nav {
     display: grid;
-    grid-template-columns: 1fr 5fr 20fr;
+    grid-template-columns: 1fr 10fr 20fr;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   .dropdownMenu {
@@ -307,5 +316,36 @@ footer {
   .navLinks > * a {
     text-decoration: none;
     color: #000;
+  }
+
+
+  .homeContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .callBtn{
+    width: 50%;
+  }
+
+  .dealContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .deals{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .deal{
+    width: 45%;
+  }
+
+  .dealBtn{
+    width: 90%;
   }
 }
