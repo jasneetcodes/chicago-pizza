@@ -220,10 +220,15 @@ footer {
 
 .footerRow {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  
+}
+
+.footerRow > div{
+  width: 100%;
 }
 
 .footerRow > * h3 {
@@ -240,6 +245,11 @@ footer {
   padding-top: 2px;
 }
 
+.footerCopyright{
+  font-size: 13px;
+  color: #78838c;
+}
+
 .footerSocials {
   display: flex;
   justify-content: center;
@@ -247,6 +257,16 @@ footer {
   gap: 16px;
   flex-direction: row;
   padding: 16px;
+}
+
+.footerSocialsContainer{
+  font-weight: 600;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 /* CONTACT */
@@ -348,4 +368,14 @@ footer {
   .dealBtn{
     width: 90%;
   }
+
+
+
+
+
+
+
+  /* FOOTER */
+
+
 }
