@@ -250,7 +250,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
   flex-direction: row;
   padding: 16px;
 }
@@ -264,8 +264,8 @@ footer {
 .contactContainer {
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
   align-items: center;
+  justify-content: center;
 }
 
 .contactContainer > h1 {
@@ -365,7 +365,31 @@ footer {
 
 
 
-  /* FOOTER */
+  /* CONTACT */
+
+  .contactContainer > h1{
+    padding-bottom: 50px;
+  }
+
+  .contactContainer{
+    
+  }
+
+  .contactContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 900px;
+  }
+
+  .map{
+    width: 110%;
+  }
+}
 
 
+@media (min-width: 1250px){
+  .map{
+    width: 150%;
+  }
 }
