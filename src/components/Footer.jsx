@@ -31,8 +31,8 @@ export default function Footer() {
       <div className="footerSocialsContainer">
         <h3>Follow Us</h3>
         <div className="footerSocials">
-          <i className="fa-brands fa-instagram fa-2xl"></i>
-          <i class="fa-brands fa-square-facebook fa-2xl"></i>
+          <Link to="instagram.com"><i className="fa-brands fa-instagram fa-2xl"></i></Link>
+          <Link to="instagram.com"><i class="fa-brands fa-square-facebook fa-2xl"></i></Link>
         </div>
       </div>
 
