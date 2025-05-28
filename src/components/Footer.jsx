@@ -24,7 +24,7 @@ export default function Footer() {
 
         <div>
           <h3>Address</h3>
-          <p>111 Falconridge Dr, Calgary, AB T3J 2E9, Canada</p>
+          <p>273 Falshire Dr NE, Calgary, AB T3J 2T9, Canada</p>
         </div>
 
         <div>

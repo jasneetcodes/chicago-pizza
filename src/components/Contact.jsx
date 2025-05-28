@@ -17,7 +17,7 @@ export default function Contact(){
                     </div>
                     <div className="contactInfo">
                     <h2>Address</h2>
-                    <p>111 Falconridge Dr, Calgary, AB T3J 2E9, Canada</p>
+                    <p>273 Falshire Dr NE, Calgary, AB T3J 2T9, Canada</p>
                     </div>
 
                 </div>
