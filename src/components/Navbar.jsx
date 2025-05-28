@@ -6,9 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [menuClicked, setMenuClicked] = useState(false);
-  const navStyle = {
-    boxShadow: menuClicked ? 'none' : '0 4px 2px -2px rgba(0,0,0,.2)'
-  }
+  
   function clickHandler() {
     menuClicked ? setMenuClicked(false) : setMenuClicked(true);
   }
@@ -19,7 +17,7 @@ export default function NavBar() {
     <IoMdMenu className="burgerMenu" style={{cursor: "pointer"}} size="30px" onClick={clickHandler} />
   );
   return (
-    <div className="navContainer"style={navStyle}>
+    <div className="navContainer">
       <nav >
         <div>
           <Link to="/"><img className="logoImg" src={logo} alt="" /></Link>
