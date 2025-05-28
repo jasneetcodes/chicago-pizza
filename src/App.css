@@ -318,6 +318,12 @@ footer {
   .map{
     width: 600px;
   }
+
+
+  .callBtn{
+    width: 40%;
+    
+  }
 }
 
 
