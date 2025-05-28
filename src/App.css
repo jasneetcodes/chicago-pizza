@@ -220,15 +220,11 @@ footer {
 
 .footerRow {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
   
-}
-
-.footerRow > div{
-  width: 100%;
 }
 
 .footerRow > * h3 {
@@ -254,21 +250,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
   flex-direction: row;
   padding: 16px;
-}
-
-
-
-.footerSocialsContainer{
-  font-weight: 600;
-  padding-bottom: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
 }
 
 .footerSocials >  a{

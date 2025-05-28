@@ -26,15 +26,17 @@ export default function Footer() {
           <h3>Address</h3>
           <p>111 Falconridge Dr, Calgary, AB T3J 2E9, Canada</p>
         </div>
-      </div>
 
-      <div className="footerSocialsContainer">
+        <div>
         <h3>Follow Us</h3>
         <div className="footerSocials">
-          <Link to="instagram.com"><i className="fa-brands fa-instagram fa-2xl"></i></Link>
-          <Link to="instagram.com"><i class="fa-brands fa-square-facebook fa-2xl"></i></Link>
+          <Link to="https://www.instagram.com"><i className="fa-brands fa-instagram fa-2xl"></i></Link>
+          <Link to="https://www.facebook.com"><i class="fa-brands fa-square-facebook fa-2xl"></i></Link>
         </div>
       </div>
+      </div>
+
+      
 
       <p className="footerCopyright">Copyright © 2025 Jasneetcodes. All rights </p>
     </footer>
