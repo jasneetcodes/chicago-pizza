@@ -180,19 +180,19 @@ nav > a {
   font-weight: 600;
 }
 
-.deals {
+.homeDeals {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.dealImg {
+.homeDealImg {
   width: 100%;
   height: auto;
   object-fit: contain;
 }
 
-.dealBtn {
+.homeDealBtn {
   padding: 24px 32px;
   border-radius: 20px;
   border: none;
@@ -333,17 +333,17 @@ footer {
     
   }
 
-  .deals{
+  .homeDeals{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .deal{
+  .homeDeal{
     width: 45%;
   }
 
-  .dealBtn{
+  .homeDealBtn{
     margin-top: 32px;
   }
 
@@ -394,7 +394,7 @@ footer {
 
  
 
-  .dealBtn{
+  .homeDealBtn{
     width: 90%;
   }
 

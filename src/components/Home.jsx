@@ -8,15 +8,15 @@ export default function Home(){
 
             <div className="dealContainer">
                 <h2>Our Most Popular Deals</h2>
-                <div className="deals">
-                    <div className="deal">
-                        <img className="dealImg" src={banner} alt="" />
+                <div className="homeDeals">
+                    <div className="homeDeal">
+                        <img className="homeDealImg" src={banner} alt="" />
                     </div>
-                    <div className="deal">
-                        <img className="dealImg" src={banner} alt="" />
+                    <div className="homeDeal">
+                        <img className="homeDealImg" src={banner} alt="" />
                     </div>
                 </div>
-                <button className="dealBtn click">View all deals</button>
+                <button className="homeDealBtn click">View all deals</button>
             </div>
         </div>
     )
