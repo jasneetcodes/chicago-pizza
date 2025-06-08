@@ -4,7 +4,7 @@ export default function Home(){
     return(
         <div className="homeContainer">
             <img className= "mainDealImg" src={banner} alt="" />
-            <button className="callBtn click">Order Now   <i class="fa-solid fa-phone "></i></button>
+            <button className="callBtn click"><a style={{color: 'white'}} href="tel:+4039844800">Order Now <i class="fa-solid fa-phone "></i></a></button>
 
             <div className="dealContainer">
                 <h2>Our Most Popular Deals</h2>

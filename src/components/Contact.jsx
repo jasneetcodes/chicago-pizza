@@ -8,12 +8,12 @@ export default function Contact(){
                 <div >
                     <div className="contactInfo">
                     <h2>Opening Hours</h2>
-                    <p>Monday - Saturday: 8am - 1am</p>
-                    <p>Sunday: 8am - 1am</p>
+                    <p>Monday - Saturday: 11am - 1am</p>
+                    <p>Sunday: 11am - 1am</p>
                     </div>
                     <div className="contactInfo">
                     <h2>Phone</h2>
-                    <p>587-425-3652</p>
+                    <p>403-984-4800</p>
                     </div>
                     <div className="contactInfo">
                     <h2>Address</h2>

@@ -18,8 +18,8 @@ export default function Footer() {
         </div>
         <div>
           <h3>Opening Hours</h3>
-          <p>Monday - Saturday: 8am - 1am</p>
-          <p>Sunday: 8am - 1am</p>
+          <p>Monday - Saturday: 11am - 1am</p>
+          <p>Sunday: 11am - 1am</p>
         </div>
 
         <div>
