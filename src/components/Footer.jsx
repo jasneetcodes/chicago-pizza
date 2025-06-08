@@ -30,8 +30,8 @@ export default function Footer() {
         <div>
         <h3>Follow Us</h3>
         <div className="footerSocials">
-          <Link to="https://www.instagram.com"><i className="fa-brands fa-instagram fa-2xl"></i></Link>
-          <Link to="https://www.facebook.com"><i class="fa-brands fa-square-facebook fa-2xl"></i></Link>
+          <Link to="https://www.instagram.com" target="_blank"><i className="fa-brands fa-instagram fa-2xl"></i></Link>
+          <Link to="https://www.facebook.com"  target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></Link>
         </div>
       </div>
       </div>
