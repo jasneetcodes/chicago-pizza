@@ -359,6 +359,16 @@ footer {
 }
 
 
+
+/* MENU */
+
+.menuContainer{
+  padding: 50px 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
 /* Tablet Size */
 
 @media (min-width: 768px){
@@ -468,6 +478,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     min-width: 900px;
+    padding-bottom: 50px;
   }
 
   .map{

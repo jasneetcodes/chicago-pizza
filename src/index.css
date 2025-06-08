@@ -1,8 +1,8 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   box-sizing: border-box;
-  --color-rosso: #C02121;
-  --color-giallo: #F4C542;
+  --color-rosso: #c60c06;
+  --color-giallo: #f2d304;
   --color-nero: #213547;
   --color-bg: rgb(245, 245, 245);
   background-color: var( --color-bg);
