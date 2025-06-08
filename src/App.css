@@ -152,16 +152,17 @@ nav > a {
 }
 
 .callBtn {
-  padding: 16px 24px;
+  padding: 18px 24px;
   border-radius: 20px;
   background-color: var(--color-rosso);
   border: none;
   color: #fff;
   font-weight: 600;
-  width: 90%;
+  width: 80%;
   margin-left: 16px;
   margin-right: 16px;
   font-size: 16px;
+  text-align: center;
 }
 
 .homeDealContainer {
@@ -388,7 +389,7 @@ footer {
 
   .callBtn{
     width: 40%;
-    
+    padding: 24px 32px;
   }
 
   .homeDealContainer{
