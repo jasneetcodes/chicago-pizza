@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	
+  font-family: Alegreya SC;
   box-sizing: border-box;
   --color-rosso: #c60c06;
   --color-giallo: #f2d304;
@@ -57,3 +59,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
