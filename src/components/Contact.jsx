@@ -13,7 +13,7 @@ export default function Contact(){
                     </div>
                     <div className="contactInfo">
                     <h2>Phone</h2>
-                    <p>403-984-4800</p>
+                    <p>+1 403-984-4800</p>
                     </div>
                     <div className="contactInfo">
                     <h2>Address</h2>

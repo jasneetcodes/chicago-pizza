@@ -10,7 +10,7 @@ export default function Home() {
         <img className="mainDealImg" src={smallViewBanner} alt="" />
       </picture>
 
-      <Link className="callBtn click" to="tel:+4039844800">
+      <Link className="callBtn click" to="tel:+14039844800">
         Order Now <i class="fa-solid fa-phone "></i>
       </Link>
 
