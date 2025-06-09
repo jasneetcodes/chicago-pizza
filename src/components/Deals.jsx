@@ -28,7 +28,7 @@ export default function Deals(){
                 <img src={banner} alt="" className="dealImg" />
                 <div className="dealContent">
                     <h2 className="dealTitle">Combo Deal #3</h2>
-                    <p className="dealPara"> Includes 3 Large Pizza (Regular Crust) with any 4 Toppings of your choosing</p>
+                    <p className="dealPara"> Includes 3 Large Pizzas (Regular Crust) with any 4 Toppings of your choosing</p>
                     <p className="dealPrice">$49.99</p>
                 </div>
             </div>
@@ -55,7 +55,7 @@ export default function Deals(){
                 <img src={banner} alt="" className="dealImg" />
                 <div className="dealContent">
                     <h2 className="dealTitle">Combo Deal #6</h2>
-                    <p className="dealPara"> Includes 2 Large Pizza (Regular Crust) with any 4 Toppings of your choosing, 10 Chicken Wings and 1 Large Fries</p>
+                    <p className="dealPara"> Includes 2 Large Pizzas (Regular Crust) with any 4 Toppings of your choosing, 10 Chicken Wings and 1 Large Fries</p>
                     <p className="dealPrice">$44.99</p>
                 </div>
             </div>

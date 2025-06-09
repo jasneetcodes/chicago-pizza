@@ -1,12 +1,12 @@
 import menuOne from "../assets/menuOne-one.png";
 import menuOneTwo from "../assets/menuOne-two.png";
 
-import menuTwo from "../assets/menuTwo-one.png"
-import menuTwoTwo from "../assets/menuTwo-two.png"
+import menuTwo from "../assets/menuTwo-one.png";
+import menuTwoTwo from "../assets/menuTwo-two.png";
 
-import menuThree from "../assets/menuThree-one.png"
-import menuThreeTwo from "../assets/menuThree-two.png"
-import menuThreeThree from "../assets/menuThree-three.png"
+import menuThree from "../assets/menuThree-one.png";
+import menuThreeTwo from "../assets/menuThree-two.png";
+import menuThreeThree from "../assets/menuThree-three.png";
 export default function Menu() {
   return (
     <div className="menuContainer">
@@ -37,6 +37,9 @@ export default function Menu() {
           <div>
             <img src={menuThreeTwo} alt="" />
           </div>
+        </div>
+
+        <div className="menu menuTwo">
           <div>
             <img src={menuThreeThree} alt="" />
           </div>
