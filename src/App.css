@@ -55,10 +55,13 @@ nav {
   background-color: #fff;
 }
 
-nav > a {
+
+nav > * h1{
+  color: var(--color-rosso);
+  text-shadow: var(--color-giallo) 1px 0px 3px;
+  -webkit-font-smoothing: antialiased;
   font-weight: 600;
   font-size: 28px;
-  color: #000;
 }
 
 .logoImg {
@@ -86,7 +89,8 @@ nav > a {
 
 .dropdownMenu > * a {
   text-decoration: none;
-  color: #000;
+  color: var(--color-rosso);
+  font-weight: 600;
   transition: all 200ms ease;
 }
 
@@ -110,7 +114,7 @@ nav > a {
 }
 
 .LinkHoverEffectBlack:after {
-  background-color: black;
+  background-color: var(--color-giallo);
 }
 
 .linkHoverEffect:hover:after {
@@ -448,7 +452,9 @@ footer {
 
   .navLinks > * a {
     text-decoration: none;
-    color: #000;
+    color: var(--color-rosso);
+    font-weight: 600;
+    font-size: 20px;
   }
 
 
