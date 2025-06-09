@@ -4,7 +4,7 @@ export default function Deals(){
 
     return(
         <div className="dealsContainer">
-            <h1>Deals</h1>
+            <h1 className="sectionTitle">Deals</h1>
             <div className="deals">
             <div className="deal">
                 <img src={banner} alt="" className="dealImg" />
