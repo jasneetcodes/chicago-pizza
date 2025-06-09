@@ -43,7 +43,7 @@ a {
 
 .navContainer {
   position: relative;
-  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -55,8 +55,7 @@ nav {
   background-color: #fff;
 }
 
-
-nav > * h1{
+nav > * h1 {
   color: var(--color-rosso);
   text-shadow: var(--color-giallo) 1px 0px 3px;
   -webkit-font-smoothing: antialiased;
@@ -210,7 +209,7 @@ nav > * h1{
   width: 80%;
   margin-top: 8px;
   font-size: 16px;
-  color: #fff;
+  color: var(--color-rosso);
   text-align: center;
   display: block;
 }
@@ -235,24 +234,24 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  
 }
 
 .footerRow > * h3 {
-  font-weight: 600;
+  font-weight: 700;
   padding-bottom: 8px;
   text-align: center;
+  font-size: 20px;
 }
 
 .footerRow > * p {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   line-height: 1.5em;
   color: #fff;
   padding-top: 2px;
 }
 
-.footerCopyright{
+.footerCopyright {
   font-size: 13px;
   color: #78838c;
 }
@@ -266,7 +265,7 @@ footer {
   padding: 16px;
 }
 
-.footerSocials >  a{
+.footerSocials > a {
   color: #fff;
 }
 
@@ -303,127 +302,109 @@ footer {
   line-height: 1.5em;
 }
 
-
-
-
-
-.navLinks{
+.navLinks {
   display: none;
 }
 
-
-
 /* DEALS */
 
-.dealsContainer{
+.dealsContainer {
   padding: 50px 0px;
   max-width: 1200px;
   margin: 0 auto;
 }
-.deals{
+.deals {
   display: flex;
   flex-direction: column;
   gap: 16px;
   margin-left: 16px;
   margin-right: 16px;
-  
 }
 
-.dealsContainer > h1 {  
+.dealsContainer > h1 {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
   padding-bottom: 50px;
 }
 
-.deal{
+.deal {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   margin: 2px;
 }
 
-.dealImg{
+.dealImg {
   width: 100%;
   height: 250px;
   object-fit: cover;
 }
 
-
-.dealTitle{
+.dealTitle {
   color: #231f20;
   padding: 16px 16px 6px;
   font-weight: 600;
 }
 
-.dealPara{
+.dealPara {
   padding: 0 16px 16px;
   color: #6b6e79;
 }
 
-.dealPrice{
+.dealPrice {
   color: #231f20;
   font-size: 1rem;
   padding: 16px 16px;
   font-weight: 600;
 }
 
-
-
 /* MENU */
 
-.menuContainer{
+.menuContainer {
   padding: 50px 0px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-
 /* Tablet Size */
 
-@media (min-width: 768px){
-
-  .contactContent{
+@media (min-width: 768px) {
+  .contactContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .map{
+  .map {
     width: 600px;
   }
 
-
-  .callBtn{
+  .callBtn {
     width: 40%;
     padding: 24px 32px;
   }
 
-  .homeDealContainer{
+  .homeDealContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
 
-  .homeDeals{
+  .homeDeals {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .homeDeal{
+  .homeDeal {
     width: 45%;
   }
 
-  .homeDealBtn{
+  .homeDealBtn {
     margin-top: 32px;
   }
-
 }
-
-
-
 
 /* Desktop Size */
 
@@ -433,6 +414,10 @@ footer {
     grid-template-columns: 1fr 10fr 20fr;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  nav > * h1{
+    font-size: 32px;
   }
 
   .dropdownMenu {
@@ -457,50 +442,45 @@ footer {
     font-size: 20px;
   }
 
-
-  .homeContainer{
+  .homeContainer {
     max-width: 1200px;
     margin: 0 auto;
   }
 
-  .callBtn{
+  .callBtn {
     width: 50%;
+    font-size: 20px;
   }
 
- 
-
-  .homeDealBtn{
+  .homeDealBtn {
     width: 90%;
+    font-size: 20px;
   }
 
-
-
-
-
-
+  .homeDealContainer > h2 {
+    font-size: 28px;
+  }
 
   /* CONTACT */
 
-  .contactContainer > h1{
+  .contactContainer > h1 {
     padding-bottom: 50px;
   }
 
-  .contactContent{
-   
+  .contactContent {
     flex-direction: row;
     justify-content: space-between;
     min-width: 900px;
     padding-bottom: 50px;
   }
 
-  .map{
+  .map {
     width: 110%;
   }
 
-
   /* DEALS */
 
-  .deals{
+  .deals {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: start;
@@ -508,19 +488,13 @@ footer {
     gap: 8px;
   }
 
-  .deal{
+  .deal {
     width: 49%;
   }
 }
 
-
-
-
-
-
-
-@media (min-width: 1250px){
-  .map{
+@media (min-width: 1250px) {
+  .map {
     width: 150%;
   }
 }
