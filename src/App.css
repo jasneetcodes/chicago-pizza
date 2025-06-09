@@ -387,7 +387,7 @@ footer {
   color: var(--color-rosso);
 }
 .menu > * div {
-  width: 500px;
+  width: 100%;
 }
 
 .menu > * img{
@@ -401,6 +401,10 @@ footer {
 /* Tablet Size */
 
 @media (min-width: 768px) {
+
+  nav > * h1{
+    font-size: 32px;
+  }
 
   .sectionTitle{
     font-size: 32px;
@@ -454,9 +458,7 @@ footer {
     margin: 0 auto;
   }
 
-  nav > * h1{
-    font-size: 32px;
-  }
+
 
   .dropdownMenu {
     display: none;
