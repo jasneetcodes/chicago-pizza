@@ -11,6 +11,7 @@ a {
 .sectionTitle{
   font-size: 26px;
   font-weight: 600;
+  text-align: center;
 }
 
 /* CallSticky */
@@ -328,7 +329,6 @@ footer {
 }
 
 .dealsContainer > h1 {
-  text-align: center;
   padding-bottom: 50px;
 }
 
@@ -371,6 +371,31 @@ footer {
   padding: 50px 0px;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.menuOne{
+  background-color: var(--color-giallo);
+}
+.menuTwo{
+  background-color: var(--color-rosso);
+  color: var(--color-rosso);
+}
+.menu > * div {
+  width: 500px;
+}
+
+.menu > * img{
+  width: 100%;
+}
+
+.menuContainer >  h1 {
+  padding-bottom: 50px;
 }
 
 /* Tablet Size */
