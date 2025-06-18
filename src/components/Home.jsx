@@ -7,18 +7,49 @@ export default function Home() {
     <div className="homeContainer">
       <picture>
         <source srcSet={banner} media="(min-width: 768px)" />
-        <img className="mainDealImg" src={smallViewBanner} alt="Chicago Deep Dish Pizza restaurant Calgary" />
+        <img
+          className="mainDealImg"
+          src={smallViewBanner}
+          alt="Chicago Deep Dish Pizza restaurant Calgary"
+        />
       </picture>
 
       <Link className="callBtn click" to="tel:+14039844800">
         Order Now <i class="fa-solid fa-phone "></i>
       </Link>
-
+      <div style={{ display: "none" }}>
+        calgary deep dish, calgary deep dish pizza, best calgary deep dish,
+        chicago deep dish calgary, deep dish pizza near me, calgary pizza,
+        calgary deep dish delivery, deep dish pizza calgary nw, calgary deep
+        dish restaurant, authentic deep dish calgary, deep dish pizza calgary
+        se, calgary deep dish takeout, deep dish pizza near me open now, calgary
+        pizza near me
+      </div>
+      <div style={{ display: "none" }}>
+        best calgary pizza, pizza calgary, calgary pizza best, deep dish pizza
+        calgary, pizza near me calgary, chicago pizza calgary, deep dish pizza
+        near me calgary, calgary deep dish location, order deep dish pizza
+        calgary, deep dish calgary pickup, deep dish pizza calgary ne, deep dish
+        pizza near me delivery, deep dish pizza near me calgary sw, deep dish
+        pizza calgary downtown
+      </div>
+      <div style={{ display: "none" }}>
+        deep dish pizza near me, deep dish pizza near me now, deep dish pizza
+        near me calgary open late, calgary deep dish menu, deep dish pizza
+        calgary delivery, best deep dish calgary, deep dish pizza canada,
+        chicago style pizza calgary, calgary pizza deals, calgary deep dish
+        crust, calgary pizza delivery near me, deep dish pizza takeout calgary,
+        calgary deep dish map, deep dish pizzeria calgary
+      </div>
       <div className="homeDealContainer">
         <h2>Our Most Popular Deals</h2>
         <div className="homeDeals">
           <div className="homeDeal">
-            <img src={deal} alt="Calgary deep dish pizza number 1" className="dealImg" />
+            <img
+              src={deal}
+              alt="Calgary deep dish pizza number 1"
+              className="dealImg"
+            />
             <div className="dealContent">
               <h2 className="dealTitle">Combo Deal #1</h2>
               <p className="dealPara">
@@ -29,14 +60,22 @@ export default function Home() {
               <p className="dealPrice">$29.99</p>
             </div>
           </div>
-            <div className="homeDeal">
-                <img src={deal} alt="Calgary deep dish pizza number 2" className="dealImg" />
-                <div className="dealContent">
-                    <h2 className="dealTitle">Combo Deal #2</h2>
-                    <p className="dealPara"> Includes 3 Medium Pizzas (Regular Crust) with any 4 Toppings of your choosing and 10 Chicken Wings</p>
-                    <p className="dealPrice">$52.99</p>
-                </div>
+          <div className="homeDeal">
+            <img
+              src={deal}
+              alt="Calgary deep dish pizza number 2"
+              className="dealImg"
+            />
+            <div className="dealContent">
+              <h2 className="dealTitle">Combo Deal #2</h2>
+              <p className="dealPara">
+                {" "}
+                Includes 3 Medium Pizzas (Regular Crust) with any 4 Toppings of
+                your choosing and 10 Chicken Wings
+              </p>
+              <p className="dealPrice">$52.99</p>
             </div>
+          </div>
         </div>
         <Link className="homeDealBtn click" to="deals">
           View all deals
