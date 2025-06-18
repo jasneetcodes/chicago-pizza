@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <Link to="/">
-        <img className="logoImg" src={logo} alt="" />
+        <img className="logoImg" src={logo} alt="Chicago Deep Dish Pizza restaurant Calgary" />
       </Link>
       <div className="footerRow">
       <div>

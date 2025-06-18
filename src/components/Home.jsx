@@ -7,7 +7,7 @@ export default function Home() {
     <div className="homeContainer">
       <picture>
         <source srcSet={banner} media="(min-width: 768px)" />
-        <img className="mainDealImg" src={smallViewBanner} alt="" />
+        <img className="mainDealImg" src={smallViewBanner} alt="Chicago Deep Dish Pizza restaurant Calgary" />
       </picture>
 
       <Link className="callBtn click" to="tel:+14039844800">
@@ -17,11 +17,8 @@ export default function Home() {
       <div className="homeDealContainer">
         <h2>Our Most Popular Deals</h2>
         <div className="homeDeals">
-          {/* <div className="homeDeal">
-            <img className="homeDealImg" src={deal} alt="" />
-          </div> */}
           <div className="homeDeal">
-            <img src={deal} alt="" className="dealImg" />
+            <img src={deal} alt="Calgary deep dish pizza number 1" className="dealImg" />
             <div className="dealContent">
               <h2 className="dealTitle">Combo Deal #1</h2>
               <p className="dealPara">
@@ -33,16 +30,13 @@ export default function Home() {
             </div>
           </div>
             <div className="homeDeal">
-                <img src={deal} alt="" className="dealImg" />
+                <img src={deal} alt="Calgary deep dish pizza number 2" className="dealImg" />
                 <div className="dealContent">
                     <h2 className="dealTitle">Combo Deal #2</h2>
                     <p className="dealPara"> Includes 3 Medium Pizzas (Regular Crust) with any 4 Toppings of your choosing and 10 Chicken Wings</p>
                     <p className="dealPrice">$52.99</p>
                 </div>
             </div>
-          {/* <div className="homeDeal">
-            <img className="homeDealImg" src={deal} alt="" />
-          </div> */}
         </div>
         <Link className="homeDealBtn click" to="deals">
           View all deals

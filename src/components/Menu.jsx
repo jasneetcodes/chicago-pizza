@@ -14,34 +14,34 @@ export default function Menu() {
       <div className="menuWrapper">
         <div className="menu menuOne">
           <div>
-            <img src={menuOne} alt="" />
+            <img src={menuOne} alt="Calgary deep dish pizza menu online" />
           </div>
           <div>
-            <img src={menuOneTwo} alt="" />
+            <img src={menuOneTwo} alt="Calgary deep dish pizza menu online" />
           </div>
         </div>
 
         <div className="menu menuTwo">
           <div>
-            <img src={menuTwo} alt="" />
+            <img src={menuTwo} alt="Calgary deep dish pizza menu online" />
           </div>
           <div>
-            <img src={menuTwoTwo} alt="" />
+            <img src={menuTwoTwo} alt="Calgary deep dish pizza menu online" />
           </div>
         </div>
 
         <div className="menu menuOne">
           <div>
-            <img src={menuThree} alt="" />
+            <img src={menuThree} alt="Calgary deep dish pizza menu online" />
           </div>
           <div>
-            <img src={menuThreeTwo} alt="" />
+            <img src={menuThreeTwo} alt="Calgary deep dish pizza menu online" />
           </div>
         </div>
 
         <div className="menu menuTwo">
           <div>
-            <img src={menuThreeThree} alt="" />
+            <img src={menuThreeThree} alt="Calgary deep dish pizza menu online" />
           </div>
         </div>
       </div>
