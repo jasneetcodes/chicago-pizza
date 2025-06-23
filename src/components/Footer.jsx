@@ -31,7 +31,7 @@ export default function Footer() {
         <h3>Follow Us</h3>
         <div className="footerSocials">
           <Link to="https://www.instagram.com/chicagopizzaroma?igsh=bHp3ZTJ2eTdwcHg4" target="_blank"><i className="fa-brands fa-instagram fa-2xl"></i></Link>
-          <Link to="https://www.facebook.com"  target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></Link>
+          <Link to="https://www.facebook.com/ChicagoPizzaRomaYYC"  target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></Link>
         </div>
       </div>
       </div>
