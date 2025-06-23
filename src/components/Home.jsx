@@ -1,5 +1,4 @@
-import banner from "../assets/home-banner.jpg";
-import smallViewBanner from "../assets/home-banner-mobile.webp";
+import banner from "../assets/home-banner.png";
 import deal from "../assets/main-deal.jpg";
 import { Link } from "react-router-dom";
 export default function Home() {
@@ -9,7 +8,7 @@ export default function Home() {
         <source srcSet={banner} media="(min-width: 768px)" />
         <img
           className="mainDealImg"
-          src={smallViewBanner}
+          src={banner}
           alt="Chicago Deep Dish Pizza restaurant Calgary"
         />
       </picture>
@@ -47,7 +46,7 @@ export default function Home() {
           <div className="homeDeal">
             <img
               src={deal}
-              alt="Calgary deep dish pizza number 1"
+              alt="Calgary deep dish roma pizza number 1"
               className="dealImg"
             />
             <div className="dealContent">
@@ -63,7 +62,7 @@ export default function Home() {
           <div className="homeDeal">
             <img
               src={deal}
-              alt="Calgary deep dish pizza number 2"
+              alt="Calgary deep dish roma pizza number 2"
               className="dealImg"
             />
             <div className="dealContent">
