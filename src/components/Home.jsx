@@ -1,5 +1,6 @@
 import banner from "../assets/home-banner.png";
 import deal from "../assets/main-deal.jpg";
+import dealOne from "../assets/deal-one.png"
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
         <div className="homeDeals">
           <div className="homeDeal">
             <img
-              src={deal}
+              src={dealOne}
               alt="Calgary deep dish roma pizza number 1"
               className="dealImg"
             />
