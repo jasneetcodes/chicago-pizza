@@ -14,8 +14,8 @@ export default function Home() {
         />
       </picture>
 
-      <Link className="callBtn click" to="tel:+14039844800">
-        Order Now <i class="fa-solid fa-phone "></i>
+      <Link className="callBtn click" target="_blank" to="https://order.online/store/34964271?slug=~14519068&pickup=true&hideModal=true&redirected=truetel:+14039844800">
+        Order Online Now <i class="fa-solid fa-car-side "></i>
       </Link>
       <div style={{ display: "none" }}>
         calgary deep dish, calgary deep dish pizza, best calgary deep dish,
