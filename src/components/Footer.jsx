@@ -38,7 +38,7 @@ export default function Footer() {
 
       
 
-      <p className="footerCopyright">Copyright © 2025 Jasneetcodes. All rights reserved. </p>
+      <p className="footerCopyright">Copyright © 2025 <Link className="footerCopyright" to="https://www.jasneetcodes.dev/"><u>Jasneetcodes.dev</u></Link>. All rights reserved. </p>
     </footer>
   );
 }
